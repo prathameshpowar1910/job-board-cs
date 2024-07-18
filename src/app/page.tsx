@@ -43,7 +43,7 @@ export default function Home() {
   return (
     <main className="container mx-auto p-4">
       <header className="flex justify-between items-center mb-8">
-        <h1 className="text-3xl font-bold">Fresher Job Openings</h1>
+        <h1 className="text-3xl font-bold">Fresher Job Openings - Coding Samaaj</h1>
         <ThemeToggle />
       </header>
       <div className="flex space-x-2 mb-4">
