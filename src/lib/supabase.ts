@@ -13,7 +13,7 @@ export async function getJobs() {
       .from('jobs')
       .select('*')
       .not('status', 'eq', 'Closed')
-      .order('date', { ascending: false , nullsFirst: true})
+      .order('date', { ascending: false , nullsFirst: false})
       .limit(1000); // Adjust this limit as needed
 
     if (error) {
